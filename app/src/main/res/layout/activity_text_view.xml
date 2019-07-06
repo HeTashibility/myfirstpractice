@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TextViewActivity">
+
+    <TextView
+        android:id="@+id/hezihang_BG1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hangzihang_BG"
+        android:textColor="#FF00FF"
+        android:textSize="20sp" /> //由于屏幕碎片话问题所以用sp
+    <TextView
+        android:id="@+id/hezihang_BG2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/hangzihang_BG"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="#FF00FF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/hezihang_BG3"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="choose"
+        android:textColor="#FF00FF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/hezihang_BG4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hangzihang_BG"
+        android:textColor="#FF00FF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/hezihang_BG5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hangzihang_BG"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF00FF"
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditTextActivity"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_1"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:hint="手机号"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="number"
+        android:background="@drawable/user_name"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@drawable/username_icon"
+        android:drawablePadding="5dp"
+        android:maxLines="1"
+        android:layout_marginTop="150dp"/> //inputType输入的内容限制，这里只能输入数字
+    <EditText
+        android:id="@+id/et_2"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:hint="密码"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop = "15dp"
+        android:layout_below="@id/et_1"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@drawable/password_icon"
+        android:drawablePadding="5dp"
+        android:background="@drawable/user_name"/>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/et_2"
+        android:text="登陆"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_btn4"
+        />
+</RelativeLayout>
